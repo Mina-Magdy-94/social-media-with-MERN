@@ -4,7 +4,7 @@ import {login} from '../controllers/auth.mjs'
 
 const router=express.Router()
 
-router.post('./login',login)
+router.post("/login", login);
 
 
 
